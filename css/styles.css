@@ -11,12 +11,13 @@
   --color-grey: #2e2f42;
   --color-white: #ffffff;
   --color-dairy: #fcfcfc;
+  --color-general: #e5e5e5;
 }
 
 body {
   font-family: "Roboto";
   font-size: 16px;
-  background: #e5e5e5;
+  background: var(--color-general, #e5e5e5);
 }
 
 .header {
@@ -76,7 +77,7 @@ body {
   font-size: 16px;
   line-height: 1, 5px;
   letter-spacing: 0.02em;
-  color: #434455;
+  color: var(--color-slate, #434455);
   font-style: normal;
 }
 .contact:hover,
@@ -197,7 +198,7 @@ body {
 }
 
 .team-back {
-  background: #f4f4fd;
+  background: var(--color-cloud, #f4f4fd);
 }
 .team-list {
 }

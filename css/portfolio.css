@@ -1,7 +1,21 @@
+:root {
+  --color-iris: #4d5ae5;
+  --color-ocean: #404bbf;
+  --color-navy-blue: #2e2f42;
+  --color-green: #31d0aa;
+  --color-slate: #434455;
+  --color-light-slate: #8e8f99;
+  --color-cornflower: #e7e9fc;
+  --color-cloud: #f4f4fd;
+  --color-navy-blue-modal: #2e2f42;
+  --color-grey: #2e2f42;
+  --color-white: #ffffff;
+}
+
 body {
   font-family: "Roboto";
   font-size: 16px;
-  background: #e5e5e5;
+  background: var(--color-general, #e5e5e5);
 }
 
 .list {
@@ -60,7 +74,7 @@ body {
   font-size: 16px;
   line-height: 1, 5px;
   letter-spacing: 0.02em;
-  color: #434455;
+  color: var(--color-slate, #434455);
   font-style: normal;
 }
 .contact:hover,
@@ -71,7 +85,7 @@ body {
 /* ----------filters----------------------- */
 
 .filter {
-  background: #e5e5e5;
+  background: var(--color-general, #e5e5e5);
 }
 .filter-list {
 }
@@ -86,15 +100,15 @@ body {
   align-items: center;
   text-align: center;
   letter-spacing: 0.04em;
-  color: #4d5ae5;
-  background: #f4f4fd;
+  color: var(--color-iris, #4d5ae5);
+  background: var(--color-cloud, #f4f4fd);
   cursor: pointer;
 }
 
 .filter-btn:hover,
 .filter-btn:focus {
-  color: #ffffff;
-  background: #404bbf;
+  color: var(--color-white, #ffffff);
+  background: var(--color-ocean, #404bbf);
 }
 /* ---------------footer------------------ */
 
@@ -134,4 +148,23 @@ body {
   line-height: 1, 5px;
   letter-spacing: 0.02em;
   color: var(--color-cloud, #f4f4fd);
+}
+
+/* ------example----- */
+
+.example-photo {
+}
+.example-title {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1, 2px;
+  letter-spacing: 0.02em;
+  color: var(--color-grey, #2e2f42);
+}
+.example-item {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1, 5px;
+  letter-spacing: 0.02em;
+  color: var(--color-slate, #434455);
 }
