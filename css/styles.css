@@ -30,7 +30,7 @@ body {
   font-style: normal;
   font-weight: 800;
   font-size: 18px;
-  line-height: 1.17px;
+  line-height: 1, 17;
   display: flex;
   align-items: center;
   letter-spacing: 0.03em;
@@ -44,7 +44,7 @@ body {
   font-style: normal;
   font-weight: 800;
   font-size: 18px;
-  line-height: 1.17px;
+  line-height: 1, 17;
   display: flex;
   align-items: center;
   letter-spacing: 0.03em;
@@ -65,7 +65,7 @@ body {
 .header-text {
   font-weight: 500;
   font-size: 16px;
-  line-height: 1, 5px;
+  line-height: 1, 5;
   letter-spacing: 0.02em;
   color: var(--color-grey, #2e2f42);
 }
@@ -73,10 +73,14 @@ body {
 .header-text:focus {
   color: var(--color-ocean, #404bbf);
 }
+
+.header-contacts {
+  font-style: normal;
+}
 .contact {
   font-weight: 400;
   font-size: 16px;
-  line-height: 1, 5px;
+  line-height: 1, 5;
   letter-spacing: 0.02em;
   color: var(--color-slate, #434455);
   font-style: normal;
@@ -93,7 +97,7 @@ body {
 .hero-title {
   font-weight: 700;
   font-size: 56px;
-  line-height: 1, 07px;
+  line-height: 1, 07;
   text-align: center;
   letter-spacing: 0.02em;
   color: var(--color-white, #ffffff);
@@ -103,7 +107,7 @@ body {
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
-  line-height: 1, 5px;
+  line-height: 1, 5;
   display: flex;
   align-items: center;
   letter-spacing: 0.04em;
@@ -122,16 +126,62 @@ body {
 .features-subtitle {
   font-weight: 500;
   font-size: 20px;
-  line-height: 1, 02px;
+  line-height: 1, 2;
   letter-spacing: 0.02em;
   color: var(--color-grey, #2e2f42);
 }
 .features-item {
   font-weight: 400;
   font-size: 16px;
-  line-height: 1, 05px;
+  line-height: 1, 5;
+  letter-spacing: 0.02em;
+  color: var(--color-slate, #434455);
+}
+
+/* ---------------examples------------------ */
+
+.examples {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1, 11;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: var(--color-grey, #2e2f42);
+  background-color: var(--color-white, #ffffff);
+}
+
+/* ---------------team------------------ */
+
+.team {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1, 11;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: var(--color-grey, #2e2f42);
+}
+
+.team-back {
+  background: var(--color-cloud, #f4f4fd);
+}
+
+.list {
+}
+.team-title {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1, 2;
   letter-spacing: 0.02em;
   color: var(--color-grey, #2e2f42);
+}
+.team-item {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1, 5;
+  letter-spacing: 0.02em;
+  color: var(--color-slate, #434455);
 }
 
 /* ---------------footer------------------ */
@@ -145,7 +195,7 @@ body {
   font-style: normal;
   font-weight: 800;
   font-size: 18px;
-  line-height: 1.17px;
+  line-height: 1.17;
   display: flex;
   align-items: center;
   letter-spacing: 0.03em;
@@ -158,7 +208,7 @@ body {
   font-style: normal;
   font-weight: 800;
   font-size: 18px;
-  line-height: 1, 17px;
+  line-height: 1, 17;
   display: flex;
   align-items: center;
   letter-spacing: 0.03em;
@@ -169,53 +219,7 @@ body {
 .footer-item {
   font-weight: 400;
   font-size: 16px;
-  line-height: 1, 5px;
+  line-height: 1, 5;
   letter-spacing: 0.02em;
   color: var(--color-cloud, #f4f4fd);
-}
-
-/* ---------------examples------------------ */
-
-.examples {
-  font-weight: 700;
-  font-size: 36px;
-  line-height: 1, 11px;
-  text-align: center;
-  letter-spacing: 0.02em;
-  text-transform: capitalize;
-  color: var(--color-grey, #2e2f42);
-}
-
-/* ---------------team------------------ */
-
-.team {
-  font-weight: 700;
-  font-size: 36px;
-  line-height: 1, 11px;
-  text-align: center;
-  letter-spacing: 0.02em;
-  text-transform: capitalize;
-  color: var(--color-grey, #2e2f42);
-}
-
-.team-back {
-  background: var(--color-cloud, #f4f4fd);
-}
-.team-list {
-}
-.list {
-}
-.team-title {
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 1, 2px;
-  letter-spacing: 0.02em;
-  color: var(--color-grey, #2e2f42);
-}
-.team-item {
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 1, 5px;
-  letter-spacing: 0.02em;
-  color: var(--color-slate, #434455);
 }
