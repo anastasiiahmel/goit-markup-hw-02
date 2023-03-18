@@ -80,7 +80,7 @@ body {
 .contact {
   font-weight: 400;
   font-size: 16px;
-  line-height: 1.07;
+  line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--color-slate, #434455);
   font-style: normal;
@@ -97,7 +97,7 @@ body {
 .hero-title {
   font-weight: 700;
   font-size: 56px;
-  line-height: 1.07;
+  line-height: 1.5;
   text-align: center;
   letter-spacing: 0.02em;
   color: var(--color-white, #ffffff);
@@ -143,12 +143,12 @@ body {
 .examples {
   font-weight: 700;
   font-size: 36px;
-  line-height: 1.2;
+  line-height: 1.11;
   text-align: center;
   letter-spacing: 0.02em;
   text-transform: capitalize;
   color: var(--color-grey, #2e2f42);
-  background-color: var(--color-white, #ffffff);
+  background-color: #ffffff;
 }
 
 /* ---------------team------------------ */
@@ -167,7 +167,7 @@ body {
 }
 
 .team-back {
-  background: var(--color-white, #ffffff);
+  background: var(--color-cloud, #f4f4fd);
 }
 
 .list {
