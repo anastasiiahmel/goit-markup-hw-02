@@ -41,7 +41,7 @@ body {
   font-style: normal;
   font-weight: 800;
   font-size: 18px;
-  line-height: 1, 17;
+  line-height: 1.17;
   display: flex;
   align-items: center;
   letter-spacing: 0.03em;
@@ -66,7 +66,7 @@ body {
 .header-text {
   font-weight: 500;
   font-size: 16px;
-  line-height: 1, 5;
+  line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--color-grey, #2e2f42);
 }
@@ -77,7 +77,7 @@ body {
 .contact {
   font-weight: 400;
   font-size: 16px;
-  line-height: 1, 5;
+  line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--color-slate, #434455);
   font-style: normal;
@@ -97,7 +97,7 @@ body {
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
-  line-height: 1, 5;
+  line-height: 1.5;
   display: flex;
   align-items: center;
   text-align: center;
@@ -136,7 +136,7 @@ body {
   font-style: normal;
   font-weight: 800;
   font-size: 18px;
-  line-height: 1, 17;
+  line-height: 1.17;
   display: flex;
   align-items: center;
   letter-spacing: 0.03em;
@@ -147,7 +147,7 @@ body {
 .footer-item {
   font-weight: 400;
   font-size: 16px;
-  line-height: 1, 5;
+  line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--color-cloud, #f4f4fd);
 }
@@ -158,18 +158,22 @@ body {
   list-style: none;
 }
 .example-photo {
+  list-style: none;
+}
+.example-img {
+  text-decoration: none;
 }
 .example-title {
   font-weight: 500;
   font-size: 20px;
-  line-height: 1, 2;
+  line-height: 1.2;
   letter-spacing: 0.02em;
   color: var(--color-grey, #2e2f42);
 }
 .example-item {
   font-weight: 400;
   font-size: 16px;
-  line-height: 1, 5;
+  line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--color-slate, #434455);
 }
