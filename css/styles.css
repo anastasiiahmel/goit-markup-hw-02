@@ -97,7 +97,7 @@ body {
 .hero-title {
   font-weight: 700;
   font-size: 56px;
-  line-height: 1.5;
+  line-height: 1.07;
   text-align: center;
   letter-spacing: 0.02em;
   color: var(--color-white, #ffffff);
@@ -148,9 +148,11 @@ body {
   letter-spacing: 0.02em;
   text-transform: capitalize;
   color: var(--color-grey, #2e2f42);
-  background-color: #ffffff;
 }
 
+.examples-list {
+  background-color: #ffffff;
+}
 /* ---------------team------------------ */
 
 .team-list {
