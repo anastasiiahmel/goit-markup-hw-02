@@ -148,6 +148,7 @@ body {
   letter-spacing: 0.02em;
   text-transform: capitalize;
   color: var(--color-grey, #2e2f42);
+  background-color: var(--color-white, #ffffff);
 }
 
 .examples-text {
