@@ -13,9 +13,10 @@
 }
 
 body {
-  font-family: "Roboto";
+  font-family: "Roboto", sans-serif;
   font-size: 16px;
-  background: var(--color-general, #e5e5e5);
+  color: var(--color-slate, #434455);
+  background-color: var(--color-white, #ffffff);
 }
 
 .list {
@@ -36,7 +37,7 @@ body {
   font-style: normal;
   font-weight: 800;
   font-size: 18px;
-  line-height: 1.17px;
+  line-height: 1, 17px;
   display: flex;
   align-items: center;
   letter-spacing: 0.03em;
@@ -91,7 +92,7 @@ body {
 }
 
 .filter-btn {
-  font-family: "Roboto";
+  font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
