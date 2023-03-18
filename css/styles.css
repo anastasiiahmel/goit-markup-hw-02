@@ -153,6 +153,9 @@ body {
 
 /* ---------------team------------------ */
 
+.team-list {
+  list-style: none;
+}
 .team {
   font-weight: 700;
   font-size: 36px;

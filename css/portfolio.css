@@ -28,7 +28,7 @@ body {
 }
 
 .header {
-  background: var(--color-white, #ffffff);
+  background-color: var(--color-white, #ffffff);
 }
 
 /* ----------------header--------------- */
@@ -90,9 +90,8 @@ body {
 /* ----------filters----------------------- */
 
 .filter {
-  background: var(--color-general, #e5e5e5);
+  background-color: var(--color-white, #ffffff);
 }
-
 .filter-btn {
   font-family: "Roboto", sans-serif;
   font-style: normal;
@@ -155,6 +154,9 @@ body {
 
 /* ------example----- */
 
+.example-list {
+  list-style: none;
+}
 .example-photo {
 }
 .example-title {
