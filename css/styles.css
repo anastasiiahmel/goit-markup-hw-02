@@ -172,15 +172,8 @@ body {
   letter-spacing: 0.02em;
   text-transform: capitalize;
   color: var(--color-grey, #2e2f42);
-  background-color: #ffffff;
 }
 
-.team-back {
-  background: var(--color-cloud, #f4f4fd);
-}
-
-.list {
-}
 .team-title {
   font-weight: 500;
   font-size: 20px;
@@ -194,6 +187,10 @@ body {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--color-slate, #434455);
+}
+
+.team-text {
+  background: var(--color-cloud, #f4f4fd);
 }
 
 /* ---------------footer------------------ */
