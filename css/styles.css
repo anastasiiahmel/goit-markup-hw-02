@@ -148,10 +148,8 @@ body {
   letter-spacing: 0.02em;
   text-transform: capitalize;
   color: var(--color-grey, #2e2f42);
-  background-color: var(--color-white, #ffffff);
 }
-
-.examples-text {
+.examples-desc {
   background-color: var(--color-white, #ffffff);
 }
 
@@ -168,7 +166,6 @@ body {
   letter-spacing: 0.02em;
   text-transform: capitalize;
   color: var(--color-grey, #2e2f42);
-  background-color: var(--color-white, #ffffff);
 }
 
 .team-back {
@@ -224,7 +221,7 @@ body {
   color: var(--color-cloud, #f4f4fd);
 }
 
-.footer-item {
+.footer-items {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
